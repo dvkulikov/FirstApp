@@ -56,15 +56,55 @@
 		002EEE1124FAC2BB00A4EB44 /* FirstApp */ = {
 			isa = PBXGroup;
 			children = (
-				002EEE1224FAC2BB00A4EB44 /* AppDelegate.swift */,
-				002EEE1424FAC2BB00A4EB44 /* SceneDelegate.swift */,
-				002EEE1624FAC2BB00A4EB44 /* ViewController.swift */,
-				002EEE1824FAC2BB00A4EB44 /* Main.storyboard */,
-				002EEE1B24FAC2BF00A4EB44 /* Assets.xcassets */,
-				002EEE1D24FAC2BF00A4EB44 /* LaunchScreen.storyboard */,
-				002EEE2024FAC2BF00A4EB44 /* Info.plist */,
+				002EEE2924FACCB100A4EB44 /* ViewControllers */,
+				002EEE2C24FACD3600A4EB44 /* Models */,
+				002EEE2824FACC7000A4EB44 /* Storyboards */,
+				002EEE2724FACC1F00A4EB44 /* SupportingFiles */,
+				002EEE2A24FACCDF00A4EB44 /* Sources */,
 			);
 			path = FirstApp;
+			sourceTree = "<group>";
+		};
+		002EEE2724FACC1F00A4EB44 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				002EEE1224FAC2BB00A4EB44 /* AppDelegate.swift */,
+				002EEE1424FAC2BB00A4EB44 /* SceneDelegate.swift */,
+				002EEE2024FAC2BF00A4EB44 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		002EEE2824FACC7000A4EB44 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				002EEE1824FAC2BB00A4EB44 /* Main.storyboard */,
+				002EEE1D24FAC2BF00A4EB44 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		002EEE2924FACCB100A4EB44 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				002EEE1624FAC2BB00A4EB44 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		002EEE2A24FACCDF00A4EB44 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				002EEE1B24FAC2BF00A4EB44 /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		002EEE2C24FACD3600A4EB44 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +325,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FirstApp/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FirstApp/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +343,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FirstApp/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FirstApp/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
